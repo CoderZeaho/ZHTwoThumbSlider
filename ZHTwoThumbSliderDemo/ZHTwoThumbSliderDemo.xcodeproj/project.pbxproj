@@ -13,7 +13,7 @@
 		FA47D96E2041444B00F028A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA47D96D2041444B00F028A7 /* Assets.xcassets */; };
 		FA47D9742041444B00F028A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA47D9732041444B00F028A7 /* main.m */; };
 		FA47D9972041446600F028A7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA47D9962041446600F028A7 /* Launch Screen.storyboard */; };
-		FA47D99B204144DC00F028A7 /* ZHTwoThumbSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = FA47D99A204144DC00F028A7 /* ZHTwoThumbSlider.m */; };
+		FA47D9DA2043FE2A00F028A7 /* ZHTwoThumbSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = FA47D9D82043FE2A00F028A7 /* ZHTwoThumbSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,8 @@
 		FA47D9792041444C00F028A7 /* ZHTwoThumbSliderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHTwoThumbSliderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA47D9842041444C00F028A7 /* ZHTwoThumbSliderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHTwoThumbSliderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA47D9962041446600F028A7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		FA47D999204144DC00F028A7 /* ZHTwoThumbSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTwoThumbSlider.h; sourceTree = "<group>"; };
-		FA47D99A204144DC00F028A7 /* ZHTwoThumbSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTwoThumbSlider.m; sourceTree = "<group>"; };
+		FA47D9D82043FE2A00F028A7 /* ZHTwoThumbSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTwoThumbSlider.m; sourceTree = "<group>"; };
+		FA47D9D92043FE2A00F028A7 /* ZHTwoThumbSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTwoThumbSlider.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 		FA47D9632041444B00F028A7 /* ZHTwoThumbSliderDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FA47D998204144DC00F028A7 /* ZHTwoThumbSlider */,
+				FA47D9D72043FE2A00F028A7 /* ZHTwoThumbSlider */,
 				FA47D9642041444B00F028A7 /* AppDelegate.h */,
 				FA47D9652041444B00F028A7 /* AppDelegate.m */,
 				FA47D9672041444B00F028A7 /* ViewController.h */,
@@ -110,13 +110,14 @@
 			path = ZHTwoThumbSliderDemo;
 			sourceTree = "<group>";
 		};
-		FA47D998204144DC00F028A7 /* ZHTwoThumbSlider */ = {
+		FA47D9D72043FE2A00F028A7 /* ZHTwoThumbSlider */ = {
 			isa = PBXGroup;
 			children = (
-				FA47D999204144DC00F028A7 /* ZHTwoThumbSlider.h */,
-				FA47D99A204144DC00F028A7 /* ZHTwoThumbSlider.m */,
+				FA47D9D82043FE2A00F028A7 /* ZHTwoThumbSlider.m */,
+				FA47D9D92043FE2A00F028A7 /* ZHTwoThumbSlider.h */,
 			);
-			path = ZHTwoThumbSlider;
+			name = ZHTwoThumbSlider;
+			path = ../../ZHTwoThumbSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,10 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA47D9DA2043FE2A00F028A7 /* ZHTwoThumbSlider.m in Sources */,
 				FA47D9692041444B00F028A7 /* ViewController.m in Sources */,
 				FA47D9742041444B00F028A7 /* main.m in Sources */,
 				FA47D9662041444B00F028A7 /* AppDelegate.m in Sources */,
-				FA47D99B204144DC00F028A7 /* ZHTwoThumbSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
